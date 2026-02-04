@@ -188,3 +188,4 @@ char get_next_turn() {
     if (using_binary_save) return binaryformat::get_next_turn_binary();
     return next_turn_ascii;
 }
+

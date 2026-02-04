@@ -136,7 +136,7 @@ static bool enemy_tracking()
 {
     while (true)
     {
-        std::cout << "Enemy's turn! Enter enemy shot (expected: A1): ";
+        std::cout << "Enemy's turn! Enter enemy shot (expected: A1): " << std::endl;
 
         int r, c;
         if (!read_pos_A1_or_A_1(r, c))
@@ -184,7 +184,7 @@ static bool player_tracking()
     while (true)
     {
         print_enemyboard(); 
-        std::cout << "Your turn! Enter your shot (expected: A1 H/M/S): ";
+        std::cout << "Your turn! Enter your shot (expected: A1 H/M/S): " << std::endl;
 
         int r, c;
         char result;
