@@ -2,7 +2,7 @@
 #include <fstream>
 #include <array>
 #include "save_game.h"
-#include "binary_saving.h"
+#include "binary_rendering.h"
 
 // Global storage for the current game's boats.
 std::array<boat, 5> boats_array{};
